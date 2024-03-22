@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="pic" src="eli.jpg" width="500" height="500"> <br>
+    <button onclick="next()">Next</button>
+    <button onclick="back()">Back</button>    
+</body>
+<script>
+        function next(){
+           document.getElementById("pic").src="eli.jpg";
+        }
+        function back(){
+            document.getElementById("pic").src="mj.jpg";
+        }
+
+    </script>
+</html>
